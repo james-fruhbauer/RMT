@@ -41,5 +41,6 @@
         "type": "vcs",
         "url": "https://github.com/mateusz-kolecki/readmegen"
       }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
