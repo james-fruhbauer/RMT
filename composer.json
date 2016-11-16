@@ -28,12 +28,18 @@
         "symfony/process": "~2.3|^3.0",
         "vierbergenlars/php-semver": "~3.0",
         "sensiolabs/security-checker": "~2.0|^3.0",
-        "fojuth/readmegen": "*"
+        "fojuth/readmegen": "dev-master"
     },
     "autoload": {
         "psr-0": {
             "Liip": "src"
         }
     },
-    "bin": ["RMT"]
+    "bin": ["RMT"],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/mateusz-kolecki/readmegen"
+      }
+    ]
 }

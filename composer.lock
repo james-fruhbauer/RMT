@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eff66033f2ece7435f1148dee8d3d683",
-    "content-hash": "70f63f73a0a1255a0ae4de335d4f541c",
+    "hash": "72ed9f27b828cd7a37aefdecdccde9f1",
+    "content-hash": "7da3aff41842f91059c282a547c5c1d0",
     "packages": [
         {
             "name": "fojuth/readmegen",
-            "version": "1.1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fojuth/readmegen.git",
-                "reference": "560108613f0d3fedc9e39d6c749fffbbba9d6667"
+                "url": "https://github.com/mateusz-kolecki/readmegen.git",
+                "reference": "2d32e68c8e3ab52adfe086916e8cb7e5821f3781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fojuth/readmegen/zipball/560108613f0d3fedc9e39d6c749fffbbba9d6667",
-                "reference": "560108613f0d3fedc9e39d6c749fffbbba9d6667",
+                "url": "https://api.github.com/repos/mateusz-kolecki/readmegen/zipball/2d32e68c8e3ab52adfe086916e8cb7e5821f3781",
+                "reference": "2d32e68c8e3ab52adfe086916e8cb7e5821f3781",
                 "shasum": ""
             },
             "require": {
-                "symfony/yaml": "~2.1",
+                "symfony/yaml": "^3.1.2 || ~2.1",
                 "ulrichsg/getopt-php": "2.*"
             },
             "require-dev": {
@@ -37,7 +37,6 @@
                     "ReadmeGen\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -54,7 +53,10 @@
                 "readme",
                 "vcs"
             ],
-            "time": "2015-07-17 18:39:03"
+            "support": {
+                "source": "https://github.com/mateusz-kolecki/readmegen/tree/master"
+            },
+            "time": "2016-07-29 12:48:06"
         },
         {
             "name": "psr/log",
@@ -375,25 +377,25 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.13",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "396784cd06b91f3db576f248f2402d547a077787"
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/396784cd06b91f3db576f248f2402d547a077787",
-                "reference": "396784cd06b91f3db576f248f2402d547a077787",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -420,7 +422,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-21 20:59:10"
+            "time": "2016-10-24 18:41:13"
         },
         {
             "name": "ulrichsg/getopt-php",
@@ -518,7 +520,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fojuth/readmegen": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
